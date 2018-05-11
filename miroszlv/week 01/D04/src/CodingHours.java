@@ -10,8 +10,7 @@ public class CodingHours
 
         int b = 58;
             b /= 52;
-        int
-        System.out.println(c);
+        System.out.println(b);
     }
 
 }
