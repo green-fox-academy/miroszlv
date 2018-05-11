@@ -18,6 +18,6 @@ public class TwoNumbers {
         d /= 13;
         System.out.println(d);
 
-        
+
     }
 }
