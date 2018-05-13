@@ -4,8 +4,9 @@ public class MileToKilometer {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-                int userinputkm = scanner.nextInt();
-                double miles = userinputkm / 1.6;
-        System.out.println(userinputkm + " is approximately" + miles + "miles");
+                int inputKm = scanner.nextInt();
+                inputKm *= 0.6213 ;
+
+        System.out.println("It's around " + inputKm + "miles");
     }
 }
